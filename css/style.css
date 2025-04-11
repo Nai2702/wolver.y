@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 0px!important;
+}
+
+.text-poppins{
+    font-family: "Poppins", sans-serif!important;
+}
+
+
+.bg-wolver{
+    background-color: #cf0c2e!important;
+}
+
+.bg-black{
+    background-color: black!important;
+}
+
+.bg-medium{
+    background-color: #343434!important;
+}
+
+.bg-spacegray{
+    background-color: #202020!important;
+}
+
+
+.m-hover:hover{
+    color: rgb(0, 0, 0) !important;
+}
+
+img{
+    width: 100%;
+}
+
+.text-wolver{
+    color: #cf0c2e!important;
+}
+
+.accordion-wolver {
+    --bs-accordion-color: #cf0c2e!important;
+    --bs-accordion-bg: #cf0c2e!important;
+    --bs-accordion-btn-color: white;
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0!important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: white!important;
+    background-color: #cf0c2e!important;
+    box-shadow: inset 0 calc(-1* var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+    
+}
+
+.accordion-body {
+    padding: var(--bs-accordion-body-padding-y) var(--bs-accordion-body-padding-x);
+    background-color: white;
+}
+
+.btn-wolver{
+    --bs-btn-border-color: none!important;
+}
+
+.btn:hover{
+    background-color: #343434!important;
+}
+
+footer{
+    padding: 0px!important;
+}
+
+.fs-7 {
+    font-size: 0.8rem !important;
+}
+
+.navbar-white {
+    filter: invert(1);
+}
